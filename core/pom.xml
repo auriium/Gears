@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>gears</artifactId>
+        <groupId>me.aurium</groupId>
+        <version>0.1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>gears-core</artifactId>
+
+    <properties>
+        <maven.compiler.source>${compiler.version}</maven.compiler.source>
+        <maven.compiler.target>${compiler.version}</maven.compiler.target>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>me.aurium</groupId>
+            <artifactId>beetle-core</artifactId>
+            <version>0.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>me.aurium</groupId>
+            <artifactId>beetle-core-default</artifactId>
+            <version>0.3.1</version>
+        </dependency>
+    </dependencies>
+
+</project>
